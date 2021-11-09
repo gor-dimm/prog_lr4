@@ -12,8 +12,8 @@ if __name__ == 'main':
                 for i in range(max(1, L[len(L) - 1]), n + 1):
                     step(n - i, L + [i])
 
-            else:
-                print(L[1], end="")
+        else:
+            print(L[1], end="")
             for i in L[2:]:
                 print('+{0}'.format(i), end="")
         print()
