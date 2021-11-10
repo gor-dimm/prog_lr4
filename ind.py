@@ -15,7 +15,6 @@ def step(n, L):
         print(L[1], end="")
         for i in L[2:]:
             print('+{0}'.format(i), end="")
-    print()
 
 
 if __name__ == 'main':
